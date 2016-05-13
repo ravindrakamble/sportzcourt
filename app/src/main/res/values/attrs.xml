@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- View styles -->
+    <attr name="textTitle" format="reference" />
+    <attr name="textBody" format="reference" />
+    <attr name="buttonText" format="reference" />
+    <attr name="radioButtonText" format="reference" />
+    <attr name="backgroundTheme" format="reference"></attr>
+    <attr name="DefaultBtnStyle" format="reference"></attr>
+    <attr name="RadilBtnStyle" format="reference"></attr>
+    <attr name="GrayBtnStyle" format="reference"></attr>
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="off" value="0"/>
+        </attr>
+        <attr name="scaleType">
+            <enum name="centerInside" value="0"/>
+            <enum name="fitCenter" value="1"/>
+        </attr>
+        <attr name="cropShape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+        <attr name="fixAspectRatio" format="boolean"/>
+        <attr name="aspectRatioX" format="integer"/>
+        <attr name="aspectRatioY" format="integer"/>
+        <attr name="snapRadius" format="float"/>
+        <attr name="showProgressBar" format="boolean"/>
+    </declare-styleable>
+
+</resources>

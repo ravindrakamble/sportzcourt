@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.happiestminds.wheelviewlib.ui.WheelView
+        android:id="@+id/outer_wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:emptyItemColor="#0d5302"
+        app:repeatItems="true"
+        app:rotatableWheelDrawable="false"
+        app:selectionAngle="0.0"
+        app:selectionColor="#004d40"
+        app:selectionPadding="4dp"
+        app:wheelColor="@android:color/transparent"
+        app:wheelItemRadius="25dp"
+        app:wheelPadding="20dp"
+        app:wheelPosition="left"
+        app:wheelRadius="300dp" />
+
+    <com.example.happiestminds.wheelviewlib.ui.WheelView
+        android:id="@+id/inner_wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyItemColor="#0d5302"
+        app:repeatItems="true"
+        app:rotatableWheelDrawable="false"
+        app:selectionAngle="0.0"
+        app:selectionColor="#004d40"
+        app:selectionPadding="4dp"
+        app:wheelColor="@android:color/transparent"
+        app:wheelItemRadius="25dp"
+        app:wheelPadding="20dp"
+        app:wheelPosition="left"
+        app:wheelRadius="175dp" />
+
+    <ImageView
+        android:id="@+id/anchor_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clickable="true" />
+</merge>

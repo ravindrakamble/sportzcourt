@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SportzCourt.iml" filepath="$PROJECT_DIR$/SportzCourt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daogenerator/daogenerator.iml" filepath="$PROJECT_DIR$/daogenerator/daogenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageservices/imageservices.iml" filepath="$PROJECT_DIR$/imageservices/imageservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snloginlib/snloginlib.iml" filepath="$PROJECT_DIR$/snloginlib/snloginlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wheelviewlib/wheelviewlib.iml" filepath="$PROJECT_DIR$/wheelviewlib/wheelviewlib.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">SportzCourt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_send">Send Request</string>
+    <string name="btn_add_contact">Add Contact</string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="label_forgot_password">Forgot Password</string>
+    <string name="label_password">Password</string>
+    <string name="label_skip_now">Skip Now</string>
+    <string name="label_email_address">Email Address</string>
+    <string name="content_description">Content Description</string>
+    <string name="forgot_password_info">Enter your email address to retrieve the password.</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_login">Login</string>
+
+    <string name="hint_name">Enter name</string>
+    <string name="hint_phone">Mobile Numer</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_website">Website</string>
+    <string name="hint_address_1">Enter address 1</string>
+    <string name="hint_address_2">Enter address 2</string>
+    <string name="hint_city">City</string>
+    <string name="hint_pincode">Pincode</string>
+    <string name="hint_contact_no">Contact No.</string>
+    <string name="hint_vendor_validity">Vendor Validity</string>
+    <string name="hint_short_desc">Short Description</string>
+    <string name="hint_long_desc">Long Description</string>
+    <string name="hint_opening_time">Opening Time</string>
+    <string name="hint_closing_time">Closing Time</string>
+    <string name="events">Events</string>
+    <string name="courts">Courts</string>
+    <string name="facilities">Facilities</string>
+    <string name="test_string">Test String</string>
+    <string name="btn_book">BOOK</string>
+    <!-- Dialog Messages -->
+    <string name="loading">Loading&#8230;</string>
+    <!-- Error Messages -->
+    <string name="err_email">Please enter the correct email address and try again.</string>
+
+    <!-- Info Messages -->
+    <string name="empty_username_password">Please enter your username and password</string>
+    <string name="empty_username">Please enter your username</string>
+    <string name="empty_password">Please enter your password</string>
+    <!-- Menu Items -->
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+  <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+    <string name="checkin">Checkin</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="question">What is the capital of India</string>
+    <string name="title_activity_video_services">VideoServicesActivity</string>
+<string-array name="showGuidelinesArray">
+        <item>Guidelines=Off</item>
+        <item>Guidelines=On Touch</item>
+        <item>Guidelines=On</item>
+    </string-array>
+    <!--Register Activity-->
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="user_name">User Name</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="location">Location</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="dob">Birth Date</string>
+    <string name="gender">Gender</string>
+    <string name="action_register">Register</string>
+
+
+    <string name="facebook_app_id">621985014625204</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

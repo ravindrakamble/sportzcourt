@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.activity.LoginActivity">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/login_img"
+                android:src="@drawable/person"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/login_img"
+                android:hint="@string/user_name"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+
+           
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/ed_name"
+                android:hint="@string/label_email_address"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/ed_email_id"
+                android:hint="@string/label_password"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_confirm_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/ed_password"
+                android:hint="@string/confirm_pass"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/ed_confirm_pass"
+                android:hint="@string/mobile"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/ed_mobile"
+                android:hint="@string/location"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/ed_location"
+                android:hint="@string/dob"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:layout_below="@id/ed_dob"
+                android:hint="@string/gender"
+                >
+            </android.support.v7.widget.AppCompatEditText>
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ed_gender"
+                android:layout_centerHorizontal="true"
+                android:text="@string/action_register"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
